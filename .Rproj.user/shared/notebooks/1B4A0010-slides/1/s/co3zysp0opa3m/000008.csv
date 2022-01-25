@@ -1,0 +1,7 @@
+"0","max_temp_raster_crop %>% 
+  # raster::reclassify(rcl = cbind(NA, 0)) %>% # reclassify NA values to 0
+  # raster -> spdf -> sf
+  as(., ""SpatialPolygonsDataFrame"")
+"
+"2","Error in file(fn, ""rb"") : cannot open the connection
+"
